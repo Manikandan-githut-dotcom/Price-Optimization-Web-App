@@ -7,8 +7,6 @@ Created on Fri Jun  3 11:55:38 2022
 import pandas as pd
 import numpy as np
 import streamlit as st
-import PIL
-from PIL import Image
 import pickle
 
 st.set_page_config(page_title= "Price Optimization Webpage", layout= "centered", page_icon=":chart_with_upwards_trend:")
@@ -24,10 +22,7 @@ def main():
     
     # header
     st.header("The Optimized Prices for Retail Products")
-    # display image using streamlit
-    # width is used to set the width of an image
-    img = Image.open('C:/Users/Manikandan/Downloads/istockphoto-1216828053-612x612.jpg')
-    st.image(img, width = 700)
+   
     # sub header
     st.subheader("To know the Optimal Price of your Product: ")
 
