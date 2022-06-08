@@ -46,7 +46,7 @@ def main():
     MRP = st.number_input("Enter MRP:", min_value = 0.399709302, max_value = 4765.472527)
 
     #print the MRP
-    st.write("Entered MRP:", MRP)
+    st.write("Enter this MRP range to know your optimal price: ", "(73.10 - 150.34)")
 
     df = data.loc[data['NAME'] == Product,: ]
 
